@@ -57,6 +57,9 @@ C:\parentDir\noPiNG> build
 
 ## Gameplay
 ![noPiNG gameplay image](img/gameplay.PNG)
+```
+C:\parentDir\noPiNG\> run
+```
 * Its PONG, movement keys are W and S
 * Because we are runing directly on hardware (no PS2 controller, interupts only) and in 1980 nobody cared to add a repeat delay speed on keyboards of 0ms so controlls can be funky
 * If the controls are too diffictult/too easy, the .data section in main.asm contains some constants that can make gameplay easier/harder (ie left_paddle_size, right_paddle_size, game_speed, ball_velocity)

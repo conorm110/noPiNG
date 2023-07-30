@@ -113,7 +113,7 @@ section .data
     right_paddle_size: dw 0x40
     base_velocity dw 0x2
     ball_size dw 0x0A
-    comp_paddle_speed: dw 0x1
+    comp_paddle_speed: dw 0x2
     user_paddle_speed: dw 0x17
     game_speed: dw 0x0caf
 
