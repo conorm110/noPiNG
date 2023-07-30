@@ -33,4 +33,4 @@ hardware -> C:\> noping.com
     * Because we are running directly on hardware (no PS2 controller, interrupts only) and in 1980 nobody cared to add a repeat delay speed on keyboards of 0ms so controls can be funky
 * If the controls are too difficult/too easy, the .data section in main.asm contains some constants that can make gameplay easier/harder (ie left_paddle_size, right_paddle_size, game_speed, ball_velocity)
 * DOSBOX keyboard works as expected but when running on real hardware FreeDOS and MS DOS may both behave differently depending on your system, for example trying to boot the MS DOS version on a laptop with a modern architecture probably won't play nice, so try FreeDOS first
-
+* Change clock speed in MS DOS or turn off turbo mode for easy mode
