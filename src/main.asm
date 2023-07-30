@@ -94,11 +94,11 @@ game_loop:
 
 game_loss:
     push 0x9
-    mov bl, 0x4
+    mov bl, 0x4 ; set background to green
     xor bh, bh
     mov ah, 0xb
     int 10h
-    call delay
+    call delay ; let the player sit in shame for a second
     jmp main
  game_won:
     push 0x9
